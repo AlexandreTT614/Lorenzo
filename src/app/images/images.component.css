@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 40vw;
+    max-height: 40vh;
+    border-radius: 5vh;
+    margin: 1vw;
+}

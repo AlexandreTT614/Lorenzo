@@ -1,0 +1,10 @@
+<div class="flex-container">
+    <div *ngFor="let image of images">
+        <div>
+            <img src= "{{ image.source }}" >
+        </div>
+        <div id="desc">
+            <p>{{ image.description }}</p>
+        </div>
+    </div>
+</div>

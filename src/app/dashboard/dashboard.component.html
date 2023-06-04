@@ -1,0 +1,24 @@
+<div class="flex-container" (mouseenter)="navigateToDash()">
+    <div id="home-icon">
+        <button>
+           <img src="favicon.ico" routerLink="" (click)="setVisible()">
+        </button>
+    </div>
+    <div class="nav">
+        <a routerLink="images" (mouseenter)="navigateToImages()">Images</a>
+    </div>
+    
+    <div class="nav">
+        <a routerLink="notes" (mouseenter)="navigateToNotes()">Notes</a>
+    </div>
+    <div class="nav">
+        <a routerLink="" (click)="setHidden()">test</a>
+    </div>
+    <div class="nav">
+        <a routerLink="" (mouseenter)="toggleVisible()" (mouseleave)="toggleVisible()">Test</a>
+    </div>
+</div>
+
+
+
+
